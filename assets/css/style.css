@@ -1,0 +1,9 @@
+img {
+    height: 200 px;
+    width: 200px;
+    border: 4px solid palevioletred;
+}
+
+ .container {
+    background-color: rgb(240, 160, 188);
+}
