@@ -5,22 +5,43 @@
   <title> Princess Game </title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Be+Vietnam|Lora|Mansalva&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <div class="jumbotron">
+        <h1 class="text-center">welcome to princess Game!</h1>
+        <h3 class="text-center">Perform basic mathematic operations using the power of jQuery!</h3>
+    </div>
     <div class="container">
         <div class=" row">
-           <div class="col-sm-3">
-               <img src="./assets/images/ariel.png" alt="arial" class="img-thumbnail">
-             </div>
-           <div class="col-sm-3">
-                <img src="./assets/images/aurora.jpg" alt="aurora" class="img-thumbnail"> 
+           <div class="col-sm-6">
+                <div class=" row">
+                        <div class="col-sm-3">
+                            <h5>arial</h5>
+                            <img src="./assets/images/ariel.png" alt="arial" class="img-thumbnail">
+                        </div>
+                        <div class="col-sm-3">
+                            <h5>Aurora</h5>
+                            <img src="./assets/images/aurora.jpg" alt="aurora" class="img-thumbnail">
+                        </div>
+                        <div class="col-sm-3">
+                            <h5>Belle</h5>
+                            <img src="./assets/images/belle.jpg" alt="belle" class="img-thumbnail">
+                        </div>
+                        <div class="col-sm-3">
+                            <h5>Cinderella</h5>
+                            <img src="./assets/images/cinderella.jpg" alt="cinderella" class="img-thumbnail">
+                        </div>  
+                </div>
            </div>
-           <div class="col-sm-3">
-                <img src="./assets/images/belle.jpg" alt="belle" class="img-thumbnail">
-             </div>
-           <div class="col-sm-3">         
-                <img src="./assets/images/cinderella.jpg" alt="cinderella" class="img-thumbnail">   
+           <div class="col-sm-6">
+                <div class="card">
+                  <h2 class="card-header">Correct Answer</h2>
+                  <h2 class="card-header">Gussing</h2>
+                    <h1 id="result"></h1>
+                    <h3 id="gussing"></h3>
+                </div>
            </div>
         </div>
     </div>
