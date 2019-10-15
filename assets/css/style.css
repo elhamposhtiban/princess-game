@@ -4,17 +4,17 @@
     font-family: 'Mansalva', cursive;
  }
 
- body {
+body {
     background-color: rgb(240, 160, 188);
 }
 
- .img-thumbnail {
+.img-thumbnail {
     height: 200 px;
     width: 200px;
     border: 4px solid rgb(196, 62, 107);
 }
 
- .jumbotron {
+.jumbotron {
     background-color: rgb(170, 54, 93);
 }
 
