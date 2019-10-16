@@ -1,14 +1,14 @@
 
 $(document).ready(function() {
-const targetNumber = Math.floor(Math.random()*200);
+const targetNumber = Math.floor(Math.random()*120)+19;
 $("#Target").text(targetNumber);
 let sum = 0;
 
 // here we begin to define our variables for each image
-const numberOption1 = Math.floor(Math.random()*30);
-const numberOption2 = Math.floor(Math.random()*40);
-const numberOption3 = Math.floor(Math.random()*60);
-const numberOption4 = Math.floor(Math.random()*70);
+const numberOption1 = Math.floor(Math.random()*12)+1;
+const numberOption2 = Math.floor(Math.random()*12)+1;
+const numberOption3 = Math.floor(Math.random()*12)+1;
+const numberOption4 = Math.floor(Math.random()*12)+1;
 console.log(targetNumber);
 
 //creatin iteractions
